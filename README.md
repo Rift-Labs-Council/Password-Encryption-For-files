@@ -5,12 +5,14 @@ Vue 3 frontend with a Node.js backend for password-protected file encryption and
 ## Features
 
 **Frontend:**
+
 - Drag-and-drop upload
 - Encrypt and decrypt tabs
 - Single or multiple file upload
 - Basic password validation
 
 **Backend:**
+
 - Zips uploaded files before encryption
 - AES-256-CBC encryption and decryption
 - Temporary file cleanup after downloads
@@ -63,8 +65,10 @@ Open: `http://localhost:5173`
 
 ```bash
 npm install
-cd backend && npm install
-cd ../frontend && npm install
+cd backend; npm install
+cd ..
+cd frontend; npm install
+cd ..
 ```
 
 Then run:

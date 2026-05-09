@@ -1,0 +1,28 @@
+{
+  "name": "file-encryption-app",
+  "version": "1.0.0",
+  "description": "A Vue 3 + Node.js file encryption application with AES-256 encryption",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ..",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "encryption",
+    "vue",
+    "aes-256",
+    "file-encryption",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT"
+}

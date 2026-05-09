@@ -11,10 +11,7 @@ Vue 3 frontend with Node.js backend for encrypting and decrypting files with pas
 - Tab-based encryption and decryption interface
 
 **Backend:**
-- AES-256-CBC encryption
-- PBKDF2 key derivation (100,000 iterations)
-- Random salt and IV for each encryption
-- Automatic file cleanup after download
+- AES-256-CBC encryption and decryption for .zip of file(s) uploaded 
 
 ## Quick Start
 

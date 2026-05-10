@@ -140,8 +140,10 @@ Password-Encryption-For-files/
 
 ## Sources
 
-- AES-256-CBC and Node.js crypto references
-- Vue 3 and Vite documentation
+- [Encrypt and Decrypt Files in Node.js: A Step-by-Step Guide Using AES-256-CBC](https://mohammedshamseerpv.medium.com/encrypt-and-decrypt-files-in-node-js-a-step-by-step-guide-using-aes-256-cbc-c25b3ef687c3)
+- [AES-256 Encryption : JavaScript in Browser](https://mojoauth.com/encryption-decryption/aes-256-encryption--javascript-in-browser)
+- [How to create aes-256 encryption in javascript] (https://stackoverflow.com/questions/44234137/how-to-create-aes-256-encryption-in-javascript)
+Obviously, some help from lil bro(aka Claude👾)
 
 ## License
 
